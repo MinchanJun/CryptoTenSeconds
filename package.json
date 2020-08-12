@@ -1,0 +1,59 @@
+{
+  "name": "cryptotenseconds",
+  "version": "1.0.0",
+  "description": "Displaying analyzed crpyto currencies information on the website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "webpack-dev-server --mode development",
+    "dev1": "concurrently \"cross-env NODE_ENV=development webpack-dev-server --open \" \"nodemon ./server/server.js\"",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinchanJun/CryptoTenSeconds.git"
+  },
+  "keywords": [
+    "Personal",
+    "extendible",
+    "project"
+  ],
+  "author": "Minchan Jun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinchanJun/CryptoTenSeconds/issues"
+  },
+  "homepage": "https://github.com/MinchanJun/CryptoTenSeconds#readme",
+  "dependencies": {
+    "bitcoinaverage": "^1.4.2",
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.2",
+    "d3": "^5.16.0",
+    "dotenv": "^8.2.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "concurrently": "^5.3.0",
+    "css-loader": "^4.2.1",
+    "dotenv-webpack": "^2.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "nodemon": "^2.0.4",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
