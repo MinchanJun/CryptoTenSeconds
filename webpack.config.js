@@ -38,6 +38,10 @@ module.exports = {
       '/api': {
         target: 'http://localhost:3000',
         secure: false,
+      },
+      '/api/email' : {
+        target: 'http://localhost:3000',
+        secure: false,
       }
     },
   },

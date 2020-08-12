@@ -4,8 +4,9 @@ const SideChartRender = (props) => {
 
     useEffect(() => {
         removeText()
-        drawChart(props.data)
-    },[props.data])
+        drawChart(props.updatedData)
+        
+    },[props.updatedData])
     return (
         <div id="chart2"></div>
     )

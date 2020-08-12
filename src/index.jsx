@@ -6,7 +6,9 @@ import store from './store';
 import './styles.css';
 
 ReactDOM.render(
-<Provider store={store}><App/></Provider>, 
+<Provider store={store}>
+<h1>Stop by Cryptocurrency Top 10 </h1>
+<App/></Provider>, 
 document.getElementById('app')
 );
 

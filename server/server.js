@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //handle the route
 app.use('/api', coinRouter);
 
+
 if(process.env.NODE_ENV === 'production') {
   app.use('/build', express.static(path.join(__dirname, '../build')));
   

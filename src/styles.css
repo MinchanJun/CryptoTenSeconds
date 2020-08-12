@@ -1,3 +1,14 @@
 #app {
-    color: blue;
+    color: black;
+    width: 1024px;
+}
+.svgs {
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+}
+#app-children {
+    display: flex;
+    margin: auto;
 }
